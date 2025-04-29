@@ -22,7 +22,7 @@ jobs:
           set -e
           
           FILES=(".github/FILE_1.md" "README.md" ".github/FILE_2.md" ".github/FILE_3.md" ".github/FILE_4.md")  # List of files to update
-          COMMIT_LOOP_COUNT=1250
+          COMMIT_LOOP_COUNT=1550
 
           echo "Configuring Git..."
           git config --global user.name "$USERNAME"
